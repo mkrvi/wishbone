@@ -290,3 +290,57 @@ footer {
 button.owl-dot {
     text-align: center;
 }
+.dialog_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-widget input{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-color: #1B1A1A;
+    width: 210px;
+    height: 30px;
+    margin-bottom: 8px;
+    outline: none;
+}
+#dialog p{
+    font: 17px/20px 'Arial';
+    font-style: oblique;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.ui-widget button{
+    display: block;
+    background-color: #1B1A1A;
+    color: #FFFFFF;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    border-radius: 8px;
+}
+.ui-widget.ui-widget-content {
+    border: 3px solid #1b1a1a;
+}
+
+.ui-dialog .ui-dialog-content{
+    background-color: #FFFFFF;
+}
+.ui-dialog-title{
+    text-align: center;
+}
+.ui-draggable .ui-dialog-titlebar {
+    cursor: default;
+}
+.ui-widget-header{
+    background-color: #ECE7E4;
+}
+.ui-corner-all{
+    border: #1B1A1A;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+

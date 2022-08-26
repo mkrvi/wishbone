@@ -6,12 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wishbone</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
+    <div id="dialog" title="Need help?">
+        <p>Please fill out the email form below and we will contact you shortly</p>
+        <form>
+            <div class="dialog_form">
+                <label>
+                    <input type="email" placeholder="Enter your email here">
+                    <button type="submit">Submit</button>
+                </label>
+            </div>
+        </form>
+    </div>
+
     <div class="container">
         <a href="#" class="logo">
             <img src="images/logo.svg" alt="logo">
@@ -34,8 +48,9 @@
                     <a href="#" class="nav_link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav__link">Get template</a>
+                    <a href="#" class="nav__link" id="opener">Get template</a>
                 </li>
+
             </ul>
         </nav>
     </div>
@@ -137,7 +152,10 @@
         </ul>
     </div>
 </footer>
-<script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/cbcd7cdcd3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
 
